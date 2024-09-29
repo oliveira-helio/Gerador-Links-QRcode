@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.21.0",
+    "express-session": "^1.18.0",
+    "pg": "^8.13.0",
+    "qrcode": "^1.5.4",
+    "sequelize": "^6.37.3"
+  },
+  "name": "gerador-links-qrcode",
+  "version": "1.0.0",
+  "description": "O \"Gerador de QR Code\" é uma aplicação web que permite aos usuários gerar QR Codes a partir de URLs fornecidas. O projeto inclui funcionalidades de autenticação de usuários, armazenamento de QR Codes no MongoDB e a opção de download dos QR Codes gerados.",
+  "main": "server.js",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon ./server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

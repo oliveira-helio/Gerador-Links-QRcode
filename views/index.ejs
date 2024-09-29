@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Página Principal</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <h1>Bem-vindo, <%= user %>!</h1>
+    <form id="qrForm">
+        <input type="text" id="url" placeholder="Digite a URL" required>
+        <button type="submit">Gerar QR Code</button>
+    </form>
+    <div id="qrCodeOutput"></div>
+    <button id="logout">Sair</button>
+
+    <script src="/script.js"></script>
+</body>
+</html>
