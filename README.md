@@ -1,0 +1,1 @@
+# Gerador-Links-QRcode
